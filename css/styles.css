@@ -23,7 +23,7 @@ line-height: 24px;
 .page-nav {
     margin-top: 70px;
     margin-right: 20px ;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 .site-navigation {
@@ -42,8 +42,12 @@ line-height: 24px;
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
-    line-height: 24px;
-    
+    line-height: 24px;   
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
 }
 
 .site-navigation li {
